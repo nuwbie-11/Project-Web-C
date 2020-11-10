@@ -1,0 +1,120 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Be-Leaf | Tempatmu berbagi tentang tanaman hias</title>
+  <link rel="stylesheet" href="kom.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="#">Be-Leaf</a></div>
+        <input type="checkbox" id="check">
+
+    </nav>
+
+
+    <input type="checkbox" id="tgl">
+    <label for="tgl">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <header>My Menu</header>
+      <a href="#">
+        <i class="fas fa-qrcode"></i>
+        <span>Forum</span>
+      </a>
+      <a href="#">
+        <i class="fas fa-sliders-h"></i>
+        <span>Pengaturan</span>
+      </a>
+      <a href="testing.html">
+        <i class="fas fa-home"></i>
+        <span> Laman Utama</span>
+      </a>
+      <ul>
+        <li><a href="#">Masuk</a></li>
+      </ul>
+    </div>
+    <div class="mega_wrapper">
+
+      <div class="table">
+        <h1>Sedang Dibicarakan :</h1>
+        <table class="content-table" id="table">
+            <thead>
+            <tr>
+                <th>Nomor</th>
+                <th>Nama</th>
+                <th> Judul Diskusi</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Adean</td>
+                <td><a href="#thread_1"><i class="fa fa-link" aria-hidden="true"></i></a> Cara Menanam Uang </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Apuen</td>
+                <td><a href="#thread_2"><i class="fa fa-link" aria-hidden="true"></i></a> Cara Menumbuhkan pohon semangka setinggi 10M</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Andrea</td>
+                <td><a href="#thread_2"><i class="fa fa-link" aria-hidden="true"></i></a> Ini Ngapain yak</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <div class="tampil_kontainer">
+          <div class="tampil" id="thread_1">
+            <div class="judul_thread">
+              <h1 >Cara Menanam Uang</h1>
+              <p>by : Adean</p>
+            </div>
+            <div class="isi_thread">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus corrupti aliquid eos officiis ipsa quibusdam id sapiente dicta quasi, culpa totam aliquam soluta, nulla animi similique quidem porro iusto.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi nostrum, obcaecati distinctio labore, reprehenderit quas repellendus sunt fugiat eaque ipsum id, voluptatum accusantium nobis earum alias. Minima dignissimos eaque est!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ipsum aspernatur commodi quibusdam aliquam corrupti maxime, nisi libero quia repudiandae nihil eum dolore modi aliquid omnis. Numquam natus blanditiis molestiae.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Laboriosam, adipisci officia quis veritatis voluptatem saepe ea cum qui fuga ad nobis, excepturi earum! Ea at voluptates suscipit, aperiam omnis molestiae!
+              </p>
+            </div>
+            <div class="gambar_thread">
+              <img src="img test/naseem.jpg" alt="">
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="tambah_kontainer">
+            <div class="tambah">
+              <h1>Tambahkan diskusi</h1>
+              <form class="form" name ='f1'>
+                <div class="fields">
+                  <input 		class="fields" 	type="text"	name="judul" 	placeholder="Judul">
+                </div>
+                <div class="note">
+                  <textarea 	class="msg" 	name="message" 	placeholder="Message" ></textarea>
+                  
+                </div>
+                  <p><i class="fa fa-link" aria-hidden="true"></i>Tambahkan Gambar</p>
+                <div>
+                  <button type="button">tambahkan</button>	
+                </div>
+            </div>
+        </div>
+
+
+      </div>
+</body>
+</html>
