@@ -67,7 +67,7 @@
   input[type="checkbox"]{
     display: none;
   }
-
+/** Start of Responsive Section**/
   @media (max-width: 1000px){
     nav{
       padding: 0 40px 0 50px;
@@ -127,7 +127,18 @@
       background: none;
       color: #98cc83;
     }
+    .tampil .gambar_thread img{
+     height: 300px;
+     margin-left: 15%;
+    }
+
+
 }
+
+
+/** End of Responsive Section**/
+
+
 .sidebar{
     position: fixed;
     width: 240px;
@@ -295,10 +306,12 @@
   .tampil .gambar_thread {
     margin:  10px 25px;
     padding-bottom: 10px;
+    display: flex;
   }
   .tampil .gambar_thread img{
     max-width: 720px;
-    max-height: 660;
+    max-height: 660px;
+    margin-left: 18%;
   }
 
   .tambah_kontainer{
