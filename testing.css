@@ -77,13 +77,17 @@
     .tentang_container .tentang-img {
       display: none;
     }
+    .tentang_container .tentang-detail .tentang_info{
+      text-align: center;
+    }
     .tentang_container .tentang-detail {
-      padding-left: 10%;
+      padding-left: 5%;
+      
     }
   }
 
 
-  @media (max-width: 1000px){
+  @media (max-width: 1046px){
     nav{
       padding: 0 40px 0 50px;
     }
@@ -92,9 +96,8 @@
       height:50%;
     }
 
-    .tentang_container{
-      padding-bottom: 10%;
-    }
+
+
     .kontainer .info{
       padding-left: 20%;
     } 
@@ -167,7 +170,7 @@
     }
 
     .tentang_container .tentang_info{
-      padding-left: 19%;
+      text-align: center;
     }
 
     .tentang_container .tentang-img {
@@ -186,17 +189,11 @@
   }
 
   
-  @media (max-width: 600px) {
-    .tentang_container .circles{
-      width: 10px;
-      height: 10px;
+  @media (max-width: 720px) {
+    .tentang_container .tentang-detail-heading .list_contain .circles{
+      display: none;
     }
-    .tentang_container .tentang-detail{
-      padding-left: 1%;
-    }
-    .komunitas_container .komunitas-detail .komunitas-detail-heading{
-      font-size: 1px;
-    }
+
   }
   .smooth{
     position: relative;
@@ -301,6 +298,7 @@
     background-size: cover;
     background-attachment:scroll;
     display: flex;
+    justify-content: center;
   }
   
   .tentang_container .list_contain{
@@ -314,11 +312,6 @@
     height: 30px;
     width: 30px;
     background-color: #FAD847;
-    margin-right: 3%;
-  }
-
-  .tentang_container .tentang-detail {
-    width: 100%;
   }
 
   .tentang_container .tentang-detail h1{
@@ -330,18 +323,19 @@
   }
 
   .tentang_container .tentang-detail .tentang-detail-heading {
-      font-size: 16px;
-      font-weight: 500;
-      color: black;
       list-style: none;
-      padding-top: 6%;
+      padding-top: 6%;    
+  }
+  .tentang_container .tentang-detail .tentang-detail-heading p {
+      font-weight: 500;
+      padding-left: 10px;
   }
 
   .tentang_container .tentang-img {
       padding-left: 9%;
       padding-bottom: 12%;
-      height: 70%;
-      width: 70%;
+      height: 50%;
+      width: 40%;
   }
   
   
