@@ -74,59 +74,59 @@ nav{
 }
 } 
 @media (max-width: 920px) {
-nav .menu-btn i{
-    display: block;
-}
-#check:checked ~ .menu-btn i:before{
-    content: "\f00d";
-}
-nav ul{
-    position: absolute;
-    top: 80px;
-    left: -100%;
-    background: #111;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
-}
-#check:checked ~ ul{
-    left: 0;
-}
-#check:checked ~ .kontainer{
-    display: none;
-}
-nav ul li{
-    width: 100%;
-    margin: 40px 0;
-}
-nav ul li a{
-    width: 100%;
-    margin-left: -100%;
-    display: block;
-    font-size: 20px;
-    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
+    nav .menu-btn i{
+        display: block;
+    }
+    #check:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    nav ul{
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #check:checked ~ .kontainer{
+        display: none;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 40px 0;
+    }
+    nav ul li a{
+        width: 100%;
+        margin-left: -100%;
+        display: block;
+        font-size: 20px;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
 
-nav ul li .log{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-}
-#check:checked ~ ul li a{
-    margin-left: 0px;
-}
+    nav ul li .log{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+    #check:checked ~ ul li a{
+        margin-left: 0px;
+    }
 
-#check:checked ~ ul li .log{
-    margin-left: 25%;
-}
+    #check:checked ~ ul li .log{
+        margin-left: 25%;
+    }
 
-nav ul li a.active,
-nav ul li a:hover{
-    background: none;
-    color: #98cc83;
-}
+    nav ul li a.active,
+    nav ul li a:hover{
+        background: none;
+        color: #98cc83;
+    }
 
 
 }
@@ -208,8 +208,7 @@ label #cancel{
     margin-left: 90%;
     opacity: 1;
     visibility: visible;
-    }
-
+}
 
 .mega_wrap{
     background: url('img\ test/Frame.png');
