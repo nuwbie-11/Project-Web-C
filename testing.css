@@ -74,6 +74,9 @@
     .kontainer .info{
       padding-left: 33%;
     } 
+    .tentang_container .tentang-img {
+      display: none;
+    }
   }
 
   @media (max-width: 1000px){
@@ -85,9 +88,6 @@
       height:50%;
     }
 
-    .tentang_container .tentang-img {
-      display: none;
-    }
     .tentang_container{
       padding-bottom: 10%;
     }
@@ -180,7 +180,20 @@
     }
 
   }
+
   
+  @media (max-width: 600px) {
+    .tentang_container .circles{
+      width: 10px;
+      height: 10px;
+    }
+    .tentang_container .tentang-detail{
+      padding-left: 1%;
+    }
+    .komunitas_container .komunitas-detail {
+      display: contents;
+    }
+  }
   .smooth{
     position: relative;
     width: 100%;
@@ -321,23 +334,7 @@
       list-style: none;
       padding-top: 6%;
   }
-  .tentang_container .tentang-detail .tentang-detail-subheading {
-      font-size: 1.6rem;
-      text-transform: uppercase;
-      letter-spacing: .5rem;
-      color: whitesmoke;
-  }
-  .tentang_container .tentang-detail .tentang-detail-button {
-      margin-top: 30px;
-      padding: 2rem 5rem;
-      display: inline-block;
-      font-size: 1.6rem;
-      text-transform: uppercase;
-      color: white;
-      text-decoration: none;
-      letter-spacing: .6rem;
-      background-color: rgba(85, 85, 85, 0.534);
-  }
+
   .tentang_container .tentang-img {
       padding-left: 9%;
       padding-bottom: 12%;
