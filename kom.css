@@ -361,3 +361,11 @@
     cursor: pointer;
     margin: 8px 15px;
   }
+
+
+  /* input[type="text"]::placeholder
+  {
+    vertical-align: top;
+    text-align: left;
+
+  } */

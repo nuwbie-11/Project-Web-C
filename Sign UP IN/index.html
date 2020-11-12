@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.php"/>
+    <title>Sign in & Sign up</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="index.html" class="sign-in-form">
+            <h2 class="title">WELLCOME TO BE-LEAF !</h2>
+            <div class="input-box">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-box">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn login" />
+            <div class="br">
+            </div>
+          </form>
+          
+          <form action="#" class="sign-up-form">
+            <h2 class="title">JOIN TO BE BE-LEAFERS !</h2>
+            <div class="input-box">
+              <i class="fas fa-user"></i>
+              <input type="text" id="name" placeholder="FullName" />
+            </div>
+            <div class="input-box">
+              <i class="fas fa-envelope"></i>
+              <input type="email" id="mail" placeholder="Email" />
+            </div>
+            <div class="input-box">
+              <i class="fas fa-lock"></i>
+              <input type="password" id="pw1" placeholder="Password" />
+            </div>
+            <div class="input-box">
+              <i class="fas fa-meh"></i>
+              <input type="password" id="pw2" placeholder="RePassword" />
+            </div>
+
+
+            <script type="text/javascript">
+              window.onload = function () {
+                  document.getElementById("pw1").onchange = validatePassword;
+                  document.getElementById("pw2").onchange = validatePassword;
+              }
+          
+              function validatePassword(){
+              var pass2=document.getElementById("pw2").value;
+              var pass1=document.getElementById("pw1").value;
+              if(pass1!=pass2)
+                  document.getElementById("pw2").setCustomValidity("Password Tidak Sama, Coba Lagi");
+              else
+                  document.getElementById("pw2").setCustomValidity('');
+              }
+          </script>
+
+            <input onclick="runPopup()" type="submit" class="btn" value="Sign up" />
+            
+            
+            <script type="text/javascript">
+              function runPopup(){
+              var pass2=document.getElementById("pw2").value;
+              var pass1=document.getElementById("pw1").value;
+              var nama=document.getElementById("name").value;
+              var email=document.getElementById("mail").value;
+              if(pass1==pass2 && nama!=''){
+                window.alert("Hello Be-Leafers! Wellcome to Be-Leaf. Make your day more beautifull with us" );
+              }else{
+                window.alert("Hello Be-Leafers! Please Fill" );
+              }
+              };
+            </script>
+
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Don't Have Any Account ?</h3>
+            <p>
+              Bergabung bersama kami menjadi Be-Leaf yang penuh kasih !
+              <br>
+              growth your plants more beautiful with our information.
+            </p>
+            <button class="btn sign" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="img/flatvec.png" class="image" alt="" />
+        </div>
+
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Already Have Account ?</h3>
+            <p>
+              Wellcome back Be-Leafers ! 
+              <br>
+              Have a nice time with us 
+            </p>
+            <button class="btn sign" id="sign-in-btn">
+              Login
+            </button>
+          </div>
+          <img src="img/vektor.png" class="image" alt="" />
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
