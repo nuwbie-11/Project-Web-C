@@ -127,17 +127,13 @@
       background: none;
       color: #98cc83;
     }
-    .tampil .gambar_thread img{
-     height: 300px;
-     margin-left: 15%;
-    }
 
 
 }
 
 @media (max-width: 600px){
 
-  
+
 }
 /** End of Responsive Section**/
 
@@ -235,7 +231,7 @@
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
-    min-width: 550px;
+    min-width: 150px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -286,13 +282,13 @@
   .tampil_kontainer{
     display:block;
     background-color: whitesmoke;
-    margin: 0px 100px;
+    margin: 0px 5%;
     margin-bottom: 50px;
   }
 
   .tampil{
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 2%;
+    padding-left: 2%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   }
   .tampil h1, .tampil p{
@@ -310,17 +306,16 @@
     margin:  10px 25px;
     padding-bottom: 10px;
     display: flex;
+    justify-content: center;
   }
   .tampil .gambar_thread img{
-    max-width: 720px;
-    max-height: 660px;
-    margin-left: 18%;
+    max-width: 70%;
   }
 
   .tambah_kontainer{
     display:block;
     background-color: whitesmoke;
-    margin: 0 100px;
+    margin: 0 5%;
   }
 
   .tambah{
@@ -335,14 +330,14 @@
   .tambah_kontainer .tambah .fields,
   .tambah_kontainer .tambah .note {
     display: grid;
-    padding: 1px 0.7rem;
+    padding: 1% 0.7rem;
   }
   .tambah_kontainer .tambah .fields{
     padding-bottom: 10px;
   }
 
   .tambah_kontainer .tambah .note {
-    height: 80%;
+    height: 20%;
   }
 
   .tambah i{
