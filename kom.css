@@ -131,10 +131,6 @@ input[type="checkbox"]{
 
 }
 
-@media (max-width: 600px){
-
-
-}
 /** End of Responsive Section**/
 
 
@@ -182,9 +178,7 @@ input[type="checkbox"]{
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-#check{
-  display: none;
-}
+
 label #btn,label #cancel{
   position: fixed;
   cursor: pointer;
