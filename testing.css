@@ -211,7 +211,6 @@ input[type="checkbox"]{
   background: url('img\ test/frame.png') fixed;
   padding-top: 8%;
   background-repeat: no-repeat;
-  background-position: top;
   background-size: cover;
   background-attachment:scroll;
   display: flex;
@@ -294,7 +293,6 @@ input[type="checkbox"]{
   background: url('img\ test/Frame 1.png') fixed;
   padding-top: 5%;
   background-repeat: no-repeat;
-  background-position: top;
   background-size: cover;
   background-attachment:scroll;
   display: flex;
@@ -347,7 +345,6 @@ input[type="checkbox"]{
   background: url("img\ test/Frame.png") fixed;
   padding-top: 5%;
   background-repeat: no-repeat;
-  background-position: top;
   background-size: cover;
   background-attachment:scroll;
   height: 80%;
@@ -397,7 +394,6 @@ input[type="checkbox"]{
   background: url('img\ test/Group 12.png') fixed;
   padding-top: 5%;
   background-repeat: no-repeat;
-  background-position: top;
   background-size: cover;
   background-attachment:scroll;
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
