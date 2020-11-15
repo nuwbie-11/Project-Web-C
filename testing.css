@@ -211,6 +211,7 @@ input[type="checkbox"]{
   background: url('img\ test/Frame.png') fixed;
   padding-top: 8%;
   background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
   background-attachment:scroll;
   display: flex;
